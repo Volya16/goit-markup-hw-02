@@ -22,10 +22,10 @@ ul {
 
 .logo {
     font-family: Raleway, sans-serif;
-    color: var(--color-secondary)
-    cursor: pointer;
+    color: var(--color-secondary);
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .logo-part {
@@ -84,9 +84,9 @@ ul {
     font-weight: 500;
 }
 
-.anvantages-text {
-
-}
+/*.anvantages-text {
+    
+}*/
 
 .work-title {
     color: var(--color-secondary);
@@ -115,9 +115,9 @@ ul {
     font-weight: 500;
 }
 
-.job-title {
+/*.job-title {
     
-}
+}*/
 
 .filter-button {
     color: var(--color-brand-light);
