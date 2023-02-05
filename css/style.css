@@ -1,0 +1,133 @@
+:root {
+    --color-primery: #434455;
+    --color-primery-inverted: #FFFFFF;
+    --color-secondary: #2E2F42;
+    --color-brand: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primery);
+    background-color: var(--color-primery-inverted);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    color: var(--color-secondary);
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo-part {
+    color: var(--color-brand);
+}
+
+.header-link {
+    color: var(--color-secondary);
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.address {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-link:hover {
+    color: var(--color-brand);
+}
+
+.header-link:focus {
+    color: var(--color-brand);
+}
+
+.first-section {
+    background-color: var(--color-secondary);
+}
+
+.main-title {
+    color: var(--color-primery-inverted);
+    font-size: 56px;
+    line-height:1.07;
+    font-weight: 700;
+    text-align: center;
+}
+
+.button {
+    color: var(--color-primery-inverted);
+    background-color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.advantages-titles {
+    color: var(--color-secondary);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.anvantages-text {
+
+}
+
+.work-title {
+    color: var(--color-secondary);
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color: var(--color-secondary);
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.staff-name {
+    color: var(--color-secondary);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.job-title {
+    
+}
+
+.footer {
+background-color: var(--color-secondary);
+}
+
+.logo-footer {
+    font-family: Raleway, sans-serif;
+    color: #F4F4FD;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-text {
+color: #E7E9FC;
+}
