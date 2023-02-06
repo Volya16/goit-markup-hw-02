@@ -11,9 +11,6 @@ body {
     color: var(--color-primery);
     background-color: var(--color-primery-inverted);
     font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-    letter-spacing: 0.02em;
 }
 
 ul {
@@ -23,9 +20,12 @@ ul {
 .logo {
     font-family: Raleway, sans-serif;
     color: var(--color-secondary);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    cursor: pointer;
 }
 
 .logo-part {
@@ -34,9 +34,9 @@ ul {
 
 .header-link {
     color: var(--color-secondary);
-    font-weight: 500;
-    text-decoration: none;
+    font-weight: 500;line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .address {
@@ -62,11 +62,13 @@ ul {
     line-height:1.07;
     font-weight: 700;
     text-align: center;
+    letter-spacing: 0.04em;
 }
 
 .button {
     color: var(--color-primery-inverted);
     background-color: var(--color-brand-light);
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
@@ -77,16 +79,35 @@ ul {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: var(--color-brand-dark);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .advantages-titles {
     color: var(--color-secondary);
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
-/*.anvantages-text {
-    
-}*/
+.anvantages-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .work-title {
     color: var(--color-secondary);
@@ -94,10 +115,15 @@ ul {
     line-height: 1.11;
     font-weight: 700;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .team-section {
     background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: var(--color-primery-inverted);
 }
 
 .team-title {
@@ -106,6 +132,7 @@ ul {
     line-height: 1.11;
     font-weight: 700;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .staff-name {
@@ -113,13 +140,16 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
-/*.job-title {
-    
-}*/
+.job-title {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .filter-button {
+    font-family: inherit;
     color: var(--color-brand-light);
     background-color: #E7E9FC;
     font-size: 16px;
@@ -137,15 +167,27 @@ ul {
     background-color: var(--color-brand-dark);
 }
 
+.filter-button:focus {
+    color: var(--color-primery-inverted);
+    background-color: var(--color-brand-dark);
+}
+
+.item-filter {
+    text-decoration: none;
+}
+
 .product-name {
     color: var(--color-secondary);
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .product-type {
     color: var(--color-primery);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -161,5 +203,7 @@ background-color: var(--color-secondary);
 }
 
 .footer-text {
-color: #E7E9FC;
+    color: #E7E9FC;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
